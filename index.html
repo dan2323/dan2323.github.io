@@ -4,7 +4,6 @@
 
 <head>
   <title>Pagina personala</title>  
-<script type = "text/javascript src = "program.js"></script>
 </head>
 
 
@@ -17,8 +16,12 @@
   <img id = "id_img" src = "dog.jpg" alt = "imagine cu catel"></img>
   <button type = "button" onclik="modifica()">Apasa</button>
   
-  
-  
+<script>
+  function modifica(){
+  document.getElementById("id_salut").innerHTML = "Hello";
+  document.getElementById("id_img").src = "cat.png";
+}
+</script>
   
   
 </body>
