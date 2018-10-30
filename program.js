@@ -4,7 +4,7 @@ function modifica()
 {
   document.getElementById("id_salut").innerHTML = "Hello";
   
-  if(pisica == false){
+  if (pisica == false){
      document.getElementById("id_img").src = "cat.png";
      pisica = true;
 }
