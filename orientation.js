@@ -10,7 +10,7 @@ document.getElementById("id_z").innerHTML =e.alpha;
 
   var canvas = document.getElementById("id_canvas");
   var context = canvas.getContext("2d");
-  var r=10;
+  var R=10;
   context.beginPath();
   context.arc(canvas.width / 2 + e.gama / 90 * (canvas.width / 2 - R),
               canvas.height / 2 + e.beta / 90 * (canvas.height / 2 - R),
