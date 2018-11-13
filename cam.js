@@ -1,4 +1,4 @@
-document.getElementById("id_logic_version").innerHTML = "Logic version:2018.11.13.5";
+document.getElementById("id_logic_version").innerHTML = "Logic version:2018.11.13.6";
 document.getElementById("id_video").addEventListener("mousedown", on_touch);
 document.getElementById("id_video").addEventListener("touchstart", on_touch);
 function on_ok(stream)
