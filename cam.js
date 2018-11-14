@@ -22,7 +22,7 @@ alert("eroare camera");
 
 //-------------------------
 
-function start ()
+function start (e)
 {
     var p = {audio: true, video: true};
 	
