@@ -48,9 +48,7 @@ e.preventDefault
 	    context.lineWith = 40;
 	    context.moveTo(lastX-rect.left, lastY-rect.top);
 	    context.lineTo(e.changedTouches.item(i).pageY - rect.top); 
-	    
-	 context.stroke();
-	   
+	    context.stroke();   
 lastX = e.changeTouches.item(i).pageX;
 lastY = e.changeTouches.item(i).pageY;	 
 	 }
