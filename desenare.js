@@ -28,7 +28,7 @@ function on_touch(e)
 	 }
 
 //--------------------------------
-function  on_touch_move(e);
+function  on_touch_move(e)
 
 {
 
