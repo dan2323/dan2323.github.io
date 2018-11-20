@@ -1,4 +1,4 @@
-document.getElementyById("id_logic_version").inneriHTML = "Logic version = 2018.11.20.3";
+document.getElementById("id_logic_version").inneriHTML = "Logic version = 2018.11.20.3";
 var canvas = document.getElementById("id_canvas");
 canvas.addEventListener("touchstar", on_touch);
 var rect = canvas.getBoundingClientRect();
