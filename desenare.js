@@ -9,7 +9,7 @@ var rect = canvas.getBoundingClientRect();
 function on_touch(e)
 
 {
-
+e.preventDefault
     for(var i = 0; i < e.changeTouches.lenght; i++);
 
     {
@@ -31,7 +31,7 @@ function on_touch(e)
 function  on_touch_move(e)
 
 {
-
+e.preventDefault
     for(var i = 0; i < e.changeTouches.lenght; i++);
 
     {
