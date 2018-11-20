@@ -1,6 +1,6 @@
-document.getElementById("id_logic_version").innerHTML = "Logic version = 2018.11.20.5";
+document.getElementById("id_logic_version").innerHTML = "Logic version = 2018.11.20.6";
 var canvas = document.getElementById("id_canvas");
-canvas.addEventListener("touchstar", on_touch);
+canvas.addEventListener("touchstart", on_touch);
 canvas.addEventListener("touchmove", on_touch_move);
 
 var rect = canvas.getBoundingClientRect();
